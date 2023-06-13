@@ -1,10 +1,10 @@
 import React,{useState} from "react";
-import axios from 'axios'
+import axios from 'axios';
 
-export default()=>{
+export default () =>{
     const [title,setTitle] = useState('');
 
-    const handleSubmit = async(event)=>{
+    const handleSubmit = async (event)=>{
         event.preventDefault();
 
         await axios.post('http://localhost:4000/posts',{
@@ -12,8 +12,7 @@ export default()=>{
         });
         
         setTitle('')
-
-    }
+    };
     return (
         <div>
             <form onSubmit={handleSubmit}>
