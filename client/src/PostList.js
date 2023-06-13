@@ -3,7 +3,7 @@ import axios from 'axios';
 import CommentCreate from './CommentCreate';
 import CommentList from './CommentList';
 
-export default ()=>{
+export default()=>{
 
     const [posts,setPosts] = useState({});
 
