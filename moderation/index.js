@@ -19,7 +19,7 @@ app.post('/events',async(req,res)=>{
                 status,
                 content:data.content
             }
-        })
+        });
     }
 
     res.send({});

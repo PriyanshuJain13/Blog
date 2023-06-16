@@ -16,11 +16,11 @@ app.get('/posts',(req,res)=>{
 
 //added async and await in funciton but not working
 app.post('/posts', async (req,res) => {
-    const id = randomBytes(4).toString('hex');
+    const id = randomBytes(4).toString('hex'); 
     const {title} = req.body; 
 
     posts[id] = {
-        id,
+        id, 
         title   
     };
     
