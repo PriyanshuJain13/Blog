@@ -20,7 +20,6 @@ app.post('/events',async(req,res)=>{
                 content:data.content
             }
         })
-        
     }
 
     res.send({});
