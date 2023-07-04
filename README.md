@@ -6,4 +6,5 @@ To view the project install code either directly or by forking this repo
 Then run these commands in terminal:
 
 npm install
+
 npm run dev
