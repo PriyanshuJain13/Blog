@@ -5,6 +5,6 @@ This is a simple application which demonstrate working of different services (co
 To view the project install code either directly or by forking this repo
 Then run these commands in terminal:
 
-### 'npm install'
+### `npm install`
 
-### 'npm run dev'
+### `npm run dev`
